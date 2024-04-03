@@ -1,0 +1,43 @@
+
+.container-title {
+	display: flex;
+	justify-content: end;
+	margin: 70px 0 110px 0;
+}
+
+.top-block-container {
+	/* background: ; */
+}
+
+.img-bg {
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+
+.new-arrival {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-column-gap: 10px;
+	position: relative;
+	z-index: 100;
+	margin: 0 100px
+}
+
+.filter-input {
+	border-radius: 5px;
+	border: 1px solid var(--black);
+	height: 40px;
+	width: 310px;
+}
+
+.filter-container {
+	margin-top: 35px;
+	display: flex;
+	justify-content: end;
+}
+
+.filter-wrap{
+	display: flex;
+	justify-content: center;
+}

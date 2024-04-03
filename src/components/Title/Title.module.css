@@ -1,0 +1,10 @@
+.title {
+	text-align: end;
+	z-index: 100;
+}
+
+.big {
+	font-size: 80px;
+	color: var(--black);
+	line-height: 110px;
+}
